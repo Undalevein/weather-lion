@@ -1,0 +1,106 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html {
+  background-image: linear-gradient(
+    rgb(17, 95, 168),
+    rgb(254, 170, 14),
+    rgb(193, 7, 7),
+    rgb(88, 6, 56)
+  );
+  height: auto;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  align-content: space-between;
+}
+
+main {
+  width: auto;
+}
+
+#lmu {
+  grid-column-start: 1;
+  width: 100%;
+  padding: 2vw;
+  background-color: white;
+  border-radius: 15px;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: rgb(137, 164, 226);
+}
+
+#title {
+  font-size: 7vw;
+  font-size-adjust: initial;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  grid-column-start: 2;
+  text-align: end;
+}
+
+#topBody {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+#lawn {
+  padding: 2vw;
+  width: 45vw;
+}
+
+#currentTemp {
+  color: white;
+}
+
+#currentTag {
+  font-size: 3.5vw;
+  padding: 2vw;
+}
+
+#temp {
+  font-size: 11vw;
+}
+
+#futureTemp {
+  color: white;
+  text-align: center;
+  border-collapse: auto;
+  border-spacing: 10vw 5px;
+  table-layout: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+td {
+  width: auto;
+}
+
+.nextTempLabel {
+  font-size: 3vw;
+}
+
+.nextTemp {
+  font-size: 6vw;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(24, 14, 81);
+  font-size: 12px;
+  text-align: start;
+  color: silver;
+  padding: 10px;
+  border-radius: 15px;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: rgb(123, 107, 179);
+  width: auto;
+}
