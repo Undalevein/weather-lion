@@ -104,3 +104,14 @@ footer {
   border-color: rgb(123, 107, 179);
   width: auto;
 }
+
+form {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+input {
+  width: 35vw;
+}

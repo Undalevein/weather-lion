@@ -1,8 +1,8 @@
-export default function CurrentInfo({ data }) {
+export default function CurrentInfo({ data, location }) {
   // Heavily Checks if there are nulls when retrieving
   // data from the API.
 
-  console.log(data);
+  console.log(data, location);
 
   const received = data?.properties?.periods?.[0]?.temperature;
 
@@ -11,7 +11,7 @@ export default function CurrentInfo({ data }) {
 
   return (
     <div id="currentTemp">
-      <h2 id="currentTag">Current Tempterature at LMU:</h2>
+      <h2 id="currentTag">Current Tempterature at {location ?? "??"}:</h2>
       <h1 id="temp">{currentTemp} F</h1>
     </div>
   );
