@@ -2,7 +2,7 @@
 
 Author: Wesley Ng
 
-Is it hot? Is it cold? Is is somehow raining at LMU? Fret not! This program is aimed to find the weather at Loyola Marymount University.
+Is it hot? Is it cold? Is it somehwhere in between? Is is somehow raining at LMU? Fret not! This program is aimed to find the weather at Loyola Marymount University.
 
 ## How It Works
 
